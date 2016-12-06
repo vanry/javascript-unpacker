@@ -1,6 +1,8 @@
 <?php
 
-class JavaScriptUnpacker
+namespace JavascriptUnpacker;
+
+class JavascriptUnpacker
 {
     protected $alphabet = array(
         52 => '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOP',

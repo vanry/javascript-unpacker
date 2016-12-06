@@ -1,17 +1,17 @@
 {
-    "name": "ptcong/php-javascript-unpacker",
+    "name": "vanry/javascript-unpacker",
     "description": "unpack javascript packed from http://dean.edwards.name/packer/",
     "type": "php",
     "license": "MIT",
     "authors": [
         {
-            "name": "Phan Thanh Cong",
-            "email": "ptcong90@gmail.com"
+            "name": "Vanry",
+            "email": "ivanry@163.com"
         }
     ],
     "autoload": {
-        "psr-0": {
-            "JavascriptUnpacker": ""
+        "psr-4": {
+            "JavascriptUnpacker\\": "src/"
         }
     }
 }
