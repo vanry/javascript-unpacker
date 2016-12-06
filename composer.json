@@ -1,14 +1,20 @@
 {
     "name": "vanry/javascript-unpacker",
-    "description": "unpack javascript packed from http://dean.edwards.name/packer/",
-    "type": "php",
+    "description": "Unpack javascript packed from http://dean.edwards.name/packer/",
+    "keywords": ["javascript", "unpacker", "eval"],
+    "type": "library",
     "license": "MIT",
+    "minimum-stability": "dev",
+    "homepage": "http://vanry.me",
     "authors": [
         {
-            "name": "Vanry",
+            "name": "vanry",
             "email": "ivanry@163.com"
         }
     ],
+    "require": {
+        "php": ">=5.3"
+    },
     "autoload": {
         "psr-4": {
             "JavascriptUnpacker\\": "src/"
